@@ -39,7 +39,7 @@ async function connectToDatabase() {
     });
 
     console.log("Connected successfully to database");
-    console.log("Incremental test");
+    console.log("Incremental test for checkmarx");
   } catch (err) {
     console.error(err);
     process.exit(2);
