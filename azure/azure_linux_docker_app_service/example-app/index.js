@@ -39,6 +39,7 @@ async function connectToDatabase() {
     });
 
     console.log("Connected successfully to database");
+    console.log("Incremental test");
   } catch (err) {
     console.error(err);
     process.exit(2);
